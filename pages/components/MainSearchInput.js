@@ -43,6 +43,12 @@ export default MainSearchInput;
 
 const Container = styled.div`
   margin-top: 30px;
+
+  & :after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 `;
 
 const SearchInput = styled.input`
@@ -52,6 +58,7 @@ const SearchInput = styled.input`
   border-radius: 35px 0 0 35px;
   font-size: 20px;
   padding: 20px 30px;
+
   &:focus {
     outline: none;
   }
@@ -61,6 +68,7 @@ const SearchInputBtn = styled.button`
   height: 70px;
   width: 70px;
   border: none;
+  float: right;
   border-radius: 0 35px 35px 0;
   cursor: pointer;
   padding: 20px 30px;
