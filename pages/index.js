@@ -6,7 +6,7 @@ const Red = () => {
   return (
     <Wrapper>
       <Container>
-        MobX
+        MobX_5
         <MainSearchInput />
         <ObservingBoard />
       </Container>

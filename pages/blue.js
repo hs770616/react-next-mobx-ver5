@@ -6,7 +6,7 @@ const Blue = () => {
   return (
     <Wrapper>
       <Container>
-        MobX
+        MobX_5
         <MainSearchInput />
         <ObservingBoard />
       </Container>
